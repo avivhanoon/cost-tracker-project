@@ -1,0 +1,25 @@
+{
+    "name": "cost-tracker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "devStart": "nodemon app.js",
+        "test": "jest"
+    },
+    "jest": {
+        "testEnviroment": "node"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2",
+        "mongoose": "^8.10.0",
+        "nodemon": "^3.1.9"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^7.0.0"
+    }
+}
